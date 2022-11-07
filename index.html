@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario de jogos - </title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  <div class="colors">
+    <div class="yellow" onclick="mudarTema(event)"></div>
+    <div class="blue" onclick="mudarTema(event)"></div>
+    <div class="green" onclick="mudarTema(event)"></div>
+    <div class="red" onclick="mudarTema(event)"></div>
+  </div>
+  <div id="app">
+    <header>
+        <img src="./assets/logo.svg" alt="logo da NLW">
+    </header>
+    <main id="cards">
+
+    </main>
+    <footer>
+      <p>Criado por GuilhermeJosué</p>
+    </footer>
+  </div>
+  
+  <aside class="">
+    <h2 id="btn" onclick="toggleFigurinha()">figurinhas</h2>
+    <div class="conteudo-figurinhas">
+      <span class="figurinhas"></span>
+      <span class="figurinhas"></span>
+      <!-- <span class="figurinhas"></span> -->
+
+    </div>
+  </aside>
+  <script src="./script.js"></script>
+</body>
+</html>
