@@ -1,5 +1,4 @@
 // ADICIONAR MUDANÇA DE TEMAS
-
 function mudarTema(click){
   const colorYellow = document.querySelector(".yellow")
   const colorBlue = document.querySelector(".blue")
@@ -13,13 +12,15 @@ function mudarTema(click){
   corpo.classList.add(`${click.target.classList.value}`)
 }
 
+
 function toggleFigurinha(){
   document.querySelector('aside').classList.toggle('active')
+  document.querySelector('.info-figurinha').classList.toggle('block')
   console.log('clique')
 }
 
 
-
+//  CARDS > JOGOS
 function createGame(player1, hour, player2){
   return`
     <li>
@@ -30,6 +31,7 @@ function createGame(player1, hour, player2){
   `
 }
 
+//  CARDS
 let delay = -0.4;
 function createCard(date, day, games) {
   delay = delay + 0.4;
@@ -43,6 +45,7 @@ function createCard(date, day, games) {
   `
 }
 
+//  JOGOS > HORARIOS
 document.querySelector("#cards").innerHTML = 
     createCard(
       "22/11", 
@@ -78,3 +81,4 @@ document.querySelector("#cards").innerHTML =
       createGame("coreia-sul", "12:00", "portugal")+
         createGame("camarao", "16:00", "brazil")
     )
+    
