@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "Neymar",
+    "data_nascimento": "27/12/1997",
+    "altura": "1,78",
+    "peso": 70
+  },
+  {
+    "nome": "gustavo",
+    "data_nascimento": "25/05/1983",
+    "altura": "1,56",
+    "peso": 60
+  },
+  {
+    "nome": "bruno",
+    "data_nascimento": "02/11/2002",
+    "altura": "1,92",
+    "peso": 85
+  },
+  {
+    "nome": "lucas",
+    "data_nascimento": "19/03/2000",
+    "altura": "1,82",
+    "peso": 65
+  },
+  {
+    "nome": "arthur",
+    "data_nascimento": "15/03/2011",
+    "altura": "1,58",
+    "peso": 45
+  },
+  {
+    "nome": "marta",
+    "data_nascimento": "07/05/1986",
+    "altura": "1,66",
+    "peso": 56
+  },
+  {
+    "nome": "messi",
+    "data_nascimento": "30/06/1985",
+    "altura": "1,70",
+    "peso": 67
+  },
+  {
+    "nome": "cristiano ronaldo",
+    "data_nascimento": "28/02/1979",
+    "altura": "1,82",
+    "peso": 73
+  },
+  {
+    "nome": "tulio",
+    "data_nascimento": "13/05/2006",
+    "altura": "1,82",
+    "peso": 53
+  }
+]

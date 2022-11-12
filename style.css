@@ -266,9 +266,9 @@ aside .conteudo-figurinhas {
 
 aside.active .conteudo-figurinhas{
   display: flex;
-  gap: 32px;
+  gap: 30px;
   width: 100%;
-  padding: 32px ;
+  padding: 20px 10px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: right;
@@ -276,6 +276,12 @@ aside.active .conteudo-figurinhas{
 
 aside.active .figurinhas{
   background-image: linear-gradient(#0FB2B1,#2b3258 50%,#0FB2B1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+aside.active .figurinhas.legend{
+  background-image: linear-gradient(#e3dbbe,#aa8f2f 50%,#e3dbbe);
   border-radius: 4px;
   cursor: pointer;
 }
