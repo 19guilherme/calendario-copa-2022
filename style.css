@@ -26,15 +26,15 @@ body.green{
   --cor-border-title-color:#047C3F; 
   --cor-color-primary:#047C3F;
   --cor-bg-card-color:#1A1F1B;
-   --cor-bg-color:#04130b;
+  --cor-bg-color:#04130b;
 
 }
 
 body.red{
   --cor-border-title-color:#7c0505; 
-  --cor-color-primary:#a90c0c;
+  --cor-color-primary:#940A2E;
   --cor-bg-card-color:#160808;
-   --cor-bg-color:#3c0404;
+  --cor-bg-color:#3c0404;
 
 }
 
@@ -87,7 +87,7 @@ div .green{
 }
 
 div .red{
-  background-color: red;
+  background-color:#410014;
   opacity: 0.7;
 }
 
@@ -289,6 +289,8 @@ aside.active .figurinhas.legend{
 aside .figurinhas:hover{
   background-color: white;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.656);
+  transform: scale(1.01);
+  transition: .3s ease;
 }
 
 .figurinhas {
@@ -322,6 +324,7 @@ aside .figurinhas:hover{
 
 .central img{
   width: 150px;
+  height: 70%;
   border-radius: 50% 50% 5% 5%;
 }
 
